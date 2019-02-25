@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/movies/movies",
+    "pages/switchcity/switchcity",
+    "pages/weather/weather",
+    "pages/movies/movie-detail/movie-detail",
+    "pages/movies/more-movie/more-movie",
+    "pages/map/map"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#689F38",
+    "navigationBarTitleText": "蜗牛生活服务",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#689F38",
+    "color": "#DCEDC8",
+    "selectedColor": "#DCEDC8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabs/zhuye.png",
+        "selectedIconPath": "images/tabs/zhuye-active.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "周边",
+        "iconPath": "images/tabs/zhoubian.png",
+        "selectedIconPath": "images/tabs/zhoubian-active.png"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "电影",
+        "iconPath": "images/tabs/dianying.png",
+        "selectedIconPath": "images/tabs/dianying-active.png"
+      },
+      {
+        "pagePath": "pages/switchcity/switchcity",
+        "text": "城市",
+        "iconPath": "images/tabs/chengshi.png",
+        "selectedIconPath": "images/tabs/chengshi-active.png"
+      },
+      {
+        "pagePath": "pages/weather/weather",
+        "text": "天气",
+        "iconPath": "images/tabs/weather_location.png",
+        "selectedIconPath": "images/tabs/weather_location-active.png"
+      }
+    ]
+  }
+
+}
